@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './navbar.css';
 import logo from '../../assets/logo.webp';
 import Hamburger from '../../assets/Hamburger.svg';
-import Contact from '../../assets/Contact.svg';
+// import Contact from '../../assets/Contact.svg';
 import {Link} from 'react-scroll';
 
 

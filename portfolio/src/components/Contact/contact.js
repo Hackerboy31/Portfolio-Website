@@ -17,11 +17,11 @@ const Contact = () => {
         <h1  className='contact-title'>My Targets</h1>
         <p className='contact-descript'>I aspire to work in world-renowned companies like Google, Microsoft, Amazon, and others, where I can not only elevate my technical expertise to unprecedented heights but also thrive in an innovative, collaborative environment. These workplaces offer unparalleled opportunities to build meaningful connections with industry leaders and pioneers, while contributing to groundbreaking projects that shape the future of technologies.</p>
         <div className='client-imgs'>
-              <a className='img' href='https://www.google.com/' target="_blank"><img className='client-img' src={Google} alt="Google" /></a>
-              <a className='img' href='https://www.microsoft.com/en-in' target="_blank"><img className='client-img' src={Microsoft} alt="Microsoft" /></a>
-              <a className='img' href='https://www.amazon.in/' target="_blank"><img className='client-img' src={Amazon} alt="Amazon" /></a>
-              <a className='img' href='https://www.goldmansachs.com/' target="_blank"><img className='client-img' src={Gold} alt="Goldman Sachs" /></a>
-              <a className='img' href='https://about.meta.com/metaverse/' target="_blank"><img className='client-img' src={Meta} alt="Meta" /></a>
+              <a className='img' href='https://www.google.com/' target="_blank" rel='noreferrer'><img className='client-img' src={Google} alt="Google" /></a>
+              <a className='img' href='https://www.microsoft.com/en-in' target="_blank" rel='noreferrer'><img className='client-img' src={Microsoft} alt="Microsoft" /></a>
+              <a className='img' href='https://www.amazon.in/' target="_blank" rel='noreferrer'><img className='client-img' src={Amazon} alt="Amazon" /></a>
+              <a className='img' href='https://www.goldmansachs.com/' target="_blank" rel='noreferrer'><img className='client-img' src={Gold} alt="Goldman Sachs" /></a>
+              <a className='img' href='https://about.meta.com/metaverse/' target="_blank" rel='noreferrer'><img className='client-img' src={Meta} alt="Meta" /></a>
         </div>
     </div>
     <div id='contact-us'>
@@ -33,10 +33,10 @@ const Contact = () => {
             <textarea name="message" rows="5" placeholder='Message' className='message'></textarea>
             <button type='submit' value= "send" className='submit-btn'>Submit</button>
             <div className='links'>
-                <a href='https://www.linkedin.com/in/shaurya-kumar-51b962289?' target="_blank"><img src={Linkdin} alt="Linkdin" className='link' /></a>
-                <a href='https://github.com/Hackerboy31' target="_blank"><img src={Github} alt="Github" className='link' /></a>
-                <a href='https://www.instagram.com/i_shaurya31/#' target="_blank"><img src={Instagram} alt="Instagram" className='link' /></a>
-                <a href='https://x.com/Shauryakumar31' target="_blank"><img src={Twitter} alt="Twitter" className='link' /></a>
+                <a href='https://www.linkedin.com/in/shaurya-kumar-51b962289?' target="_blank" rel='noreferrer'><img src={Linkdin} alt="Linkdin" className='link' /></a>
+                <a href='https://github.com/Hackerboy31' target="_blank" rel='noreferrer'><img src={Github} alt="Github" className='link' /></a>
+                <a href='https://www.instagram.com/i_shaurya31/#' target="_blank" rel='noreferrer'><img src={Instagram} alt="Instagram" className='link' /></a>
+                <a href='https://x.com/Shauryakumar31' target="_blank" rel='noreferrer'><img src={Twitter} alt="Twitter" className='link' /></a>
             </div>
         </form>
     </div>
