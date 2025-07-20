@@ -61,15 +61,28 @@ const Works = () => {
         <div className="skill-item">
           <img className="skill-img" src={Health} alt="Healthbridge" />
           <div className="skill-text">
-            <h1>Healthbridge</h1> <strong>Github:</strong>{" "}
+            <h1>Healthbridge</h1> <strong>Try the Website for User:</strong>{" "}
             <a
               style={{ color: "yellow" }}
-              href="https://github.com/Hackerboy31/HealthBridge"
+              href="https://healthbridge-frontend-6whf.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link
+            </a> <br />
+            <strong>Try the Website for admin and doctor:</strong>{" "}
+            <a
+              style={{ color: "yellow" }}
+              href="https://healthbridge-admin-t5jx.onrender.com/"
               target="_blank"
               rel="noreferrer"
             >
               Link
             </a>
+            <p>
+              <strong> • For Admin :- </strong>{" "}
+              email: example@gmail.com, password: Shaurya@1234
+            </p>
             <p>
               <strong> • Role-Based Multi-Panel Architecture :- </strong>{" "}
               Architected a modular healthcare platform featuring separate
